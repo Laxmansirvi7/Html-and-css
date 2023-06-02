@@ -1,0 +1,74 @@
+    p {
+        font-family: Roboto;  /* universal for all that means global */
+        margin-top: 0;        /* Basically there are 2 ways to target paragraphs 1.By annoucing global 2.sing individail css*/   
+        margin-bottom: 0;
+    }
+
+    .video-title {
+        /* font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; */
+        font-weight: bold;
+        font-size: 18px;
+        width: 280px;
+        line-height: 24px;
+        /* margin-bottom: 0px; */
+        margin-bottom: 5px;
+    }
+
+    .video-stats {
+        /* font-family: Arial; */
+        font-size: 14px;
+        color: rgb(96, 96, 96);
+        /* margin-top: 0px; */
+        margin-bottom: 20px;
+    } 
+
+    .video-author {
+        font-family: Arial;
+        color: rgb(96, 96, 96);
+        font-size: 14px;
+        /* margin-top: 0; */
+        margin-bottom: 20px;
+    }
+
+    .video-description  {
+        font-family: Arial;
+        font-size: 14px;
+        color: rgb(96, 96, 96);
+        width: 280px;
+        line-height: 22px;
+        margin-top: 0;
+        margin-bottom: 100px;
+    }
+
+    .apple-bar  {
+        margin-bottom: 50px;
+        font-size: 14px;
+        background-color: #e34140;
+        padding: 16px;
+        color: white;
+        font-size: 14px;
+        text-align: center;
+        margin-left: 8px;
+        margin-right: 8px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+    }
+
+    .span-element {
+        color: #e34140;
+        margin-left: 12px;
+    }
+
+    .span-element:hover {
+        text-decoration: underline;
+    }
+
+    .shop-link {
+        cursor: pointer;
+    }
+
+    .shop-link:hover {
+        text-decoration: underline;
+    }
+
+
